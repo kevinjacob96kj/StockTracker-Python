@@ -1,6 +1,6 @@
 import warnings
 from csvReader import *
-from engine import * 
+from engine import *
 from object import Strike 
 import yfinance as yf
 
@@ -11,6 +11,7 @@ def main():
   optionChain = []
 
   for holding in holdings:
+    print('sdsds')
     strike = Strike(holding)
     setStockPrice(strike)
     setOptionsData(strike)
@@ -18,5 +19,6 @@ def main():
     setProfitLoss(strike)
 
   strike.print()
+  return Strike
 
 main()
