@@ -27,7 +27,6 @@ def setStockPrice(strike: Strike):
 def setIntrinsicExtrensicValue(strike: Strike):
     strike.intrinsicValue = strike.currentPrice - strike.strikePrice
     strike.extrinsicValue = strike.avgPrice - strike.intrinsicValue
-    #
 
 def setProfitLoss(strike: Strike):
     strike.profitLoss = strike.mid - strike.avgPrice
