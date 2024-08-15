@@ -1,0 +1,4 @@
+Ticker,Strike,Expiration,Type,AvgPrice,Qty
+Amd,100,8/15/2025,Call,54,1
+crwd,200,6/20/2025,Call,79.15,2
+intc,20,6/20/2025,call,2.5,1
